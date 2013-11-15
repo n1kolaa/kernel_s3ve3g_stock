@@ -38,7 +38,7 @@
 		qcom,mdss-wb-off = <0x00011100 0x00013100>;
 		qcom,mdss-intf-off = <0x00000000 0x00021300>;
 		qcom,mdss-rot-block-size = <64>;
-		qcom,mdss-smp-mb-per-pipe = <4>;
+		qcom,mdss-smp-mb-per-pipe = <3>;
 		vdd-cx-supply = <&pm8226_s1_corner>;
 
 		qcom,vbif-settings = <0x004 0x00000001>,
@@ -46,7 +46,7 @@
 				     <0x124 0x00000003>,
 				     <0x0C0 0x02101010>;
 		qcom,mdp-settings = <0x02E0 0x000000A5>,
-				    <0x02E4 0x00000055>;
+				    <0x02E4 0x00000055>,
 				    <0x03AC 0xC0000CCC>,
 				    <0x03B4 0xC0000000>,
 				    <0x03BC 0x00C00C00>,
